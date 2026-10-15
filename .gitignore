@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.manifest
+
+# TLS material, if you ever generate a certificate to keep
+*.pem
+*.key
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

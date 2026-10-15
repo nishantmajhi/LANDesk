@@ -1,0 +1,20 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="#ffffff" stroke="#eeeeee" stroke-width="2"/>
+
+  <!-- connectors -->
+  <line x1="128" y1="128" x2="50" y2="70"   stroke="#9575CD" stroke-width="6" stroke-linecap="round"/>
+  <line x1="128" y1="128" x2="196" y2="46"  stroke="#2196F3" stroke-width="6" stroke-linecap="round"/>
+  <line x1="128" y1="128" x2="214" y2="150" stroke="#66BB6A" stroke-width="6" stroke-linecap="round"/>
+  <line x1="128" y1="128" x2="160" y2="220" stroke="#FF8A65" stroke-width="6" stroke-linecap="round"/>
+  <line x1="128" y1="128" x2="54" y2="180"  stroke="#FFCA28" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- outer nodes -->
+  <circle cx="50" cy="70"   r="14" fill="#9575CD"/>
+  <circle cx="196" cy="46"  r="12" fill="#2196F3"/>
+  <circle cx="214" cy="150" r="16" fill="#66BB6A"/>
+  <circle cx="160" cy="220" r="13" fill="#FF8A65"/>
+  <circle cx="54" cy="180"  r="15" fill="#FFCA28"/>
+
+  <!-- center node -->
+  <circle cx="128" cy="128" r="20" fill="#5C6BC0"/>
+</svg>

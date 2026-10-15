@@ -1,0 +1,14 @@
+# LANDesk dependencies
+# Install with:  pip install -r requirements.txt
+
+mss>=9.0.1            # Fast cross-platform screen capture      (server)
+Pillow>=10.0.0        # Image processing and JPEG encoding      (both)
+pynput>=1.7.6         # Mouse and keyboard injection            (server)
+cryptography>=41.0    # Makes the server's TLS certificate      (server)
+pyperclip>=1.8.2      # Optional: clipboard sync between machines
+
+# The viewer needs only Pillow and, optionally, pyperclip. Encryption on the
+# viewer side is Python's own ssl module, which is part of the standard
+# library; cryptography is needed on the server because that is the end that
+# generates the certificate. A server given --tls-cert and --tls-key does not
+# need it either.
